@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/userFragment">
+
+    <fragment
+        android:id="@+id/userFragment"
+        android:name="com.example.oblig3fotoalbummobilprog22aas.user.UserFragment"
+        android:label="UserFragment" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.oblig3fotoalbummobilprog22aas.MainActivity"
+        android:label="MainActivity" />
+</navigation>
